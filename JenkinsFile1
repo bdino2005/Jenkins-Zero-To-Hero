@@ -36,7 +36,7 @@ pipeline {
     stage('Build and Push Docker Image') {
       environment {
         DOCKER_IMAGE = "bdino2005/ultimate-cicd:${BUILD_NUMBER}"
-        DOCKER_REGISTRY_URL = "https://index.docker.io/v1/" // DockerHub registry URL
+       //index.// DockerHub registry URL
         DOCKERHUB_CREDENTIALS = credentials('docker-cred1')
       }
       steps {
