@@ -10,9 +10,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        sh 'git config --global user.email "bdzuno@gmail.com"'
-        sh 'git config --global user.name "bdino205"'
-        sh 'git clone https://github.com/bdino2005/Jenkins-Zero-To-Hero.git'
+        
       }
     }
     
